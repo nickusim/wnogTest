@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Wnogmedia | Создание Видеороликов | Съёмка Онлайн-Курсы</title>
+    <meta name="description" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <style>
+        body {
+            opacity: 0;
+            overflow-x: hidden;
+        }
+        
+        html {
+            background-color: #fff;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="grid">
+            <div class="logo">Logo</div>
+            <ul class="navigation">
+                <a href="#cases">
+                    <li>Портфолио</li>
+                </a>
+                <a href="#about">
+                    <li>О нас</li>
+                </a>
+                <a href="#contact">
+                    <li>Контакты</li>
+                </a>
+            </ul>
+        </nav>
+        <div class="title">
+            <h1>Видео-продакшн Агентство</h1>
+            <h2>Мы - WM Production. Мы создаём качественное видео для реализации ваших бизнес-идей.</h2>
+        </div>
+        <div class="inf">
+            <div class="info grid">
+                <div class="infoBlock">
+                    <div class="num">1</div>
+                    <div class="text">проектов выполнено в 2020 году</div>
+                </div>
+                <div class="infoBlock">
+                    <div class="num">6</div>
+                    <div class="text">экспертов в нашей команде</div>
+                </div>
+                <div class="infoBlock">
+                    <div class="num">9</div>
+                    <div class="text">стран, в которых мы снимали</div>
+                </div>
+            </div>
+        </div>
+        <video autoplay muted loop id="myVideo">
+			<source src="./videos/preVid.mp4" type="video/mp4">
+		</video>
+    </header>
+    <main class="experts-section">
+        <h2>Наши направления:</h2>
+        <div class="experts grid">
+            <div class="item">
+                <div class="title">Съемка мероприятий</div>
+                <p>Мы знаем, как с помощью видео передать атмосферу зала и энергию спикера.</p>
+                <a href="./template/Evenst/index.html" class="button">Подробнее</a>
+            </div>
+            <div class="item">
+                <div class="title">Реклама</div>
+                <p>Мы создаём уникальную рекламу, которая повышает узнаваемость вашего бренда и потенциально увеличит продажи.</p>
+                <a href="./template/Advertising/index.html" class="button">Подробнее</a>
+            </div>
+            <div class="item">
+                <div class="title">Анимационная графика</div>
+                <p>У нас хороший опыт создания онлайн-курсов. Мы поможем вам составить сценарий и произвести профессиональную съёмку уроков.</p>
+                <a href="./template/Graphics/index.html" class="button">Подробнее</a>
+            </div>
+            <div class="item">
+                <div class="title">Онлайн-курсы</div>
+                <p>Мы работаем с анимированной графикой разного уровня сложности и можем как создавать уникальные графические видео.</p>
+                <a href="./template/OnlineCourses/index.html" class="button">Подробнее</a>
+            </div>
+        </div>
+    </main>
+
+    <div class="cases-section" id="cases">
+        <h2>Кейсы</h2>
+        <div class="case-item" style="background: linear-gradient(-45deg, rgba(255,255,255,0) 0%, rgba(225,230,234,1) 100%);">
+            <div class="content grid">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/QEkwuXM56UE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="description">
+                    <h4 class="orderer">Заказчик:</h4>
+                    <p class="order">компания по разработке электровелосипедов “Unicorn Electrics"</p>
+                    <h4 class="goal">Задача</h4>
+                    <p class="goal-disc">Снять серию эффектных рекламных роликов про электровелосипеды “Unicorn Electrics" в таких странах, как: Италия и Испания.</p>
+                    <h4 class="result">Результат:</h4>
+                    <p class="result-desc">- Показаны достоинства и удобства электровелосипедов. <br> - Показаны возможности коллабораций с отелями и туризмом. <br> - Высокая просматриваемость каждого ролика в социальных сетях <br> - Привлечение новых клиентов на установку
+                        велостанций
+
+                    </p>
+                </div>
+                <div class="images grid">
+                    <div class="img">
+                        <a href="./img/cases/bobo1.jpg" data-fancybox="gallery"><img src="./img/cases/bobo1.jpg" alt=""></a>
+                    </div>
+                    <div class="img">
+                        <a href="./img/cases/bobo2.jpg" data-fancybox="gallery"><img src="./img/cases/bobo2.jpg" alt=""></a>
+                    </div>
+                    <div class="img">
+                        <a href="./img/cases/bobo3.jpg" data-fancybox="gallery"><img src="./img/cases/bobo3.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="breakdown-descr">
+                    <p class="breakdown"> <a href="https://youtu.be/ynZvK9Hyarw ">Виде бэкстейдж</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="case-item">
+            <div class="content grid">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/7iiikN8J-T8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="description">
+                    <h4 class="orderer">Заказчик:</h4>
+                    <p class="order">Чайная компания Yanyshev Tea.
+
+                    </p>
+                    <h4 class="goal">Задача</h4>
+                    <p class="goal-disc">Снять вдохновляющих рекламный ролик для национальной ресторанной премии - WHERETOEAT 2019. Передать атмосферу бренда Yanyshev Tea.
+                    </p>
+                    <h4 class="result">Результат:</h4>
+                    <p class="result-desc">- Победа на ресторанной премии “WHERETOEAT” в номинации "Выбор СМИ" <br> - Создание имиджа для бренда "Yanyshev Tea" <br> - Контент для социальных сетей.
+                    </p>
+                </div>
+                <div class="images grid">
+                    <div class="img">
+                        <a href="./img/cases/tea1.jpg" data-fancybox="gallery"><img src="./img/cases/tea1.jpg" alt=""></a>
+                    </div>
+                    <div class="img">
+                        <a href="./img/cases/tea2.jpg" data-fancybox="gallery"><img src="./img/cases/tea2.jpg" alt=""></a>
+                    </div>
+                    <div class="img">
+                        <a href="./img/cases/tea3.jpg" data-fancybox="gallery"><img src="./img/cases/tea3.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="breakdown-descr">
+                    <p class="breakdown">Бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+
+    <div class="about-section" id="about">
+        <h2>О мне</h2>
+        <div class="info grid">
+            <div class="information">
+                <div class="title">
+                    <h3>Александр Горелов</h3>
+                    <p class="descr">Главный режиссер</p>
+                    <div class="contacts"></div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="./img/about/gorelov.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="works">
+        <div class="wrapper grid">
+            <div class="image">
+                <img src="./img/works/google.png" alt="">
+            </div>
+            <div class="image">
+                <img src="./img/works/google.png" alt="">
+            </div>
+            <div class="image">
+                <img src="./img/works/google.png" alt="">
+            </div>
+            <div class="image">
+                <img src="./img/works/google.png" alt="">
+            </div>
+            <div class="image">
+                <img src="./img/works/google.png" alt="">
+            </div>
+            <div class="image">
+                <img src="./img/works/google.png" alt="">
+            </div>
+            <div class="image">
+                <img src="img/works/google.png" alt="">
+            </div>
+            <div class="image">
+                <img src="./img/works/google.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="contact-section" id="contact">
+        <h2>Контакты</h2>
+        <div class="contacts grid">
+            <div class="info">
+                <div class="title">Контакты</div>
+                <div class="discr">
+                    <p>info@wnogmedia.com <br> +7 921 855 80 07 (RU) <br> +1 843 888 7846 (US) <br> RU: <br> Sinopskaya nab. 22, Business Center "Sinop" <br> St. Petersburg, Russia 191167 <br> US: <br> WNOG USA LLC <br> 9704 QUEENS BLV. Rego Park, NY. 11374
+                        USA
+                    </p>
+                </div>
+            </div>
+            <div class="map">
+                <div class="wrapper">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11309.113907345747!2d30.388091005561197!3d59.92902615226562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631c057e24e6d%3A0x9d221bd90a633d12!2z0JHQuNC30L3QtdGBLdCm0LXQvdGC0YAg0LrQu9Cw0YHRgdCwINCQICJTaW5vcCI!5e0!3m2!1sru!2sru!4v1590654604025!5m2!1sru!2sru"
+                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer-section grid">
+        <div class="logo">Лого</div>
+        <div class="text">Text Text Text Text Text Text Text TextText Text Text TextText Text Text TextText Text Text TextText Text Text Text Text Text Text Text Text Text TextText Text Text TextText Text Text TextText Text Text TextText Text Text Text Text Text Text Text
+            Text Text TextText Text Text TextText Text Text TextText Text </div>
+        <div class="contacts">Контакты</div>
+    </footer>
+
+    <link rel="stylesheet" href="css/main.min.css">
+    <script src="js/scripts.min.js"></script>
+    <script src="./js/common.js"></script>
+
+</body>
+
+</html>

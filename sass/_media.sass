@@ -1,0 +1,751 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	header
+		.title
+			font-size: 26px
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	header
+		.title
+			font-size: 8px
+			top: 20%
+		nav
+			.logo
+				margin-top: 15px
+			grid-template-columns: 1fr
+			.navigation
+				display: none
+		.inf
+			position: relative
+			bottom: -30%
+			.info
+				left: 25%
+				bottom: 10%
+				grid-template-columns: 1fr
+				grid-template-rows: 1fr 1fr 1fr
+				.infoBlock
+					font-size: 12px
+					margin-left: 0
+					margin-bottom: 10px
+					.num
+						padding-bottom: 14px
+
+
+	.experts-section
+		height: 300vh
+		display: block
+		.experts
+			margin: 0 5%
+			grid-gap: 25px
+			grid-template-columns: 100%
+			grid-template-rows: repeat(4, 400px)
+			.item
+				.title
+					font-size: 14px
+					bottom: -40%
+					font-weight: bold
+				p
+					font-size: 12px
+					bottom: -40%
+				a.button
+					font-size: 14px
+					padding: 10px 15px
+
+	.cases-section
+		margin-top: 30px
+		h2
+			margin: 10px 0
+		.case-item
+			.content
+				margin-top: 20px
+				grid-template-columns: 1fr
+				grid-template-rows: repeat(4, 1fr)
+				height: 250vh
+				iframe
+					display: block
+					margin: auto
+					width: 100%
+				.description
+					margin-top: 10px
+					width: 90%
+					padding: 0 5%
+					h4
+						font-size: 14px
+					p
+						font-size: 12px
+			.images
+				grid-template-columns: 60%
+				grid-template-rows: repeat(3, 32%)
+				grid-gap: 15px
+				padding-top: 5%
+				justify-content: center
+				align-items: center
+				.img
+					img
+						width: 100%
+			.breakdown-descr
+				padding: 2% 5%
+
+	.about-section
+		margin-top: 10px
+		height: 115vh
+		h2
+			font-size: 18px
+		.info
+			grid-template-columns: 1fr
+		.image
+			img
+				width: 100%
+
+
+	.works
+		height: 125vh
+		padding: 10%
+		.wrapper
+			grid-template-columns: repeat(2, 1fr)
+			grid-template-rows: repeat(4, 1fr)
+			.image
+				height: 150px
+
+	.contact-section
+		margin-top: 50px
+		height: 90vh
+		.contacts
+			margin-top: 75px
+			margin-left: 5%
+			grid-template-columns: 1fr
+			grid-template-rows: 200px
+			.info
+				align-self: start
+				.title
+					font-size: 12px
+				.discr
+					p
+						font-size: 10px
+			.map
+				iframe
+					width: 70%
+
+	footer.footer-section
+		height: 60vh
+		grid-template-columns: 1fr
+		grid-template-rows: 10% 1fr 1fr
+		font-size: 12px
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	header
+		.title
+			padding: 0 3%
+			font-size: 10px
+			top: 15%
+		nav
+			grid-template-columns: 10% 90%
+			.logo
+				margin-top: 7px
+			.navigation
+				display: flex
+				margin-top: 7px
+				a
+					font-size: 12px
+		.inf
+			position: relative
+			bottom: -25%	
+			.info
+				left: 12%
+				bottom: 10%
+				grid-template-columns: 1fr 1fr 1fr
+				grid-template-rows: 1fr
+				.infoBlock
+					font-size: 12px
+					margin-left: 0
+					margin-bottom: 10px
+					.num
+						padding-bottom: 20px
+
+
+	.experts-section
+		height: 270vh
+		display: block
+		.experts
+			justify-content: center
+			margin: 0 5%
+			grid-gap: 10px
+			grid-template-columns: repeat(2, 250px)
+			grid-template-rows: repeat(2, 400px)
+			.item
+				.title
+					font-size: 14px
+					bottom: -40%
+					font-weight: bold
+				p
+					font-size: 12px
+					bottom: -40%
+				a.button
+					font-size: 14px
+					padding: 10px 15px
+
+	.cases-section
+		margin-top: 30px
+		h2
+			margin: 10px 0
+		.case-item
+			.content
+				margin-top: 20px
+				grid-template-columns: 100%
+				grid-template-rows: repeat(4, 1fr)
+				height: 110%
+				.video
+					width: 100%
+					iframe
+						margin: auto
+						width: 70%
+				.description
+					margin-top: 10px
+					width: 90%
+					h4
+						font-size: 14px
+						text-align: start
+					p
+						text-align: start
+						font-size: 12px
+			.images
+				grid-template-columns: 150px 150px 150px
+				grid-template-rows: 150px
+				grid-gap: 15px
+				padding-top: 0
+				justify-content: center
+				align-items: start
+				img
+					width: 100%
+			.breakdown-descr
+				padding: 2% 5%
+
+	.about-section
+		margin-top: 10px
+		height: 130vh
+		h2
+			text-align: center
+			font-size: 18px
+		.info
+			grid-template-columns: 100%
+			.information
+				text-align: center
+		.image
+			img
+				display: block
+				margin: auto
+				width: 30%
+
+
+	.works
+		height: 175vh
+		padding: 10%
+		.wrapper
+			grid-template-columns: repeat(3, 1fr)
+			grid-template-rows: repeat(3, 1fr)
+			.image
+				height: 150px
+
+	.contact-section
+		margin-top: 50px
+		height: 100%
+		.contacts
+			margin-top: 75px
+			margin-left: 5%
+			grid-template-columns: 1fr 1fr
+			grid-template-rows: 1fr
+			.info
+				align-self: start
+				.title
+					font-size: 12px
+				.discr
+					p
+						font-size: 10px
+			.map
+				iframe
+					width: 100%
+					height: 100%
+
+	footer.footer-section
+		height: 85vh
+		grid-template-columns: 10% 45% 45%
+		grid-template-rows: 1fr
+		font-size: 12px
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	header
+		.title
+			font-size: 16px
+			top: 15%
+		nav
+			grid-template-columns: 10% 90%
+			.logo
+				margin-top: 7px
+			.navigation
+				display: flex
+				margin-top: 7px
+				a
+					font-size: 12px
+		.inf
+			position: relative
+			bottom: -20%	
+			.info
+				left: 20%
+				bottom: 10%
+				grid-template-columns: 1fr 1fr 1fr
+				grid-template-rows: 1fr
+				.infoBlock
+					font-size: 16px
+					margin-left: 0
+					margin-bottom: 10px
+					.num
+						padding-bottom: 14px
+
+
+	.experts-section
+		height: 270vh
+		display: block
+		.experts
+			justify-content: center
+			margin: 0 5%
+			grid-gap: 10px
+			grid-template-columns: repeat(2, 250px)
+			grid-template-rows: repeat(2, 400px)
+			.item
+				.title
+					font-size: 14px
+					bottom: -40%
+					font-weight: bold
+				p
+					font-size: 12px
+					bottom: -40%
+				a.button
+					font-size: 14px
+					padding: 10px 15px
+
+
+	.cases-section
+		margin-top: 30px
+		h2
+			margin: 10px 0
+		.case-item
+			.content
+				margin-top: 20px
+				grid-template-columns: 100%
+				grid-template-rows: repeat(4, 1fr)
+				height: 110%
+				.video
+					iframe
+						margin: auto
+						width: 60%
+				.description
+					margin-top: 10px
+					width: 90%
+					h4
+						font-size: 18px
+						text-align: left
+					p
+						text-align: left
+						font-size: 16px
+			.images
+				grid-template-columns: repeat(3,30%)
+				grid-template-rows: 100%
+				grid-gap: 15px
+				padding-top: 0
+				justify-content: center
+				align-items: start
+				img
+					align-self: center
+					width: 100%
+			.breakdown-descr
+				padding: 2% 5%
+
+	.about-section
+		margin-top: 10px
+		height: 110vh
+		h2
+			text-align: center
+			font-size: 26px
+		.info
+			grid-template-columns: 1fr 1fr
+			.information
+				text-align: center
+		.image
+			height: 100%
+			img
+				display: block
+				margin: auto
+				width: 50%
+
+	.works
+		height: 130vh
+		padding: 10%
+		.wrapper
+			grid-template-columns: repeat(4, 1fr)
+			grid-template-rows: repeat(2, 1fr)
+			.image
+				height: 150px
+
+	.contact-section
+		margin-top: 50px
+		height: 130vh
+		.contacts
+			margin-top: 75px
+			margin-left: 2%
+			grid-template-columns: 1fr 1fr
+			grid-template-rows: 1fr
+			.info
+				align-self: start
+				.title
+					font-size: 18px
+				.discr
+					padding-right: 3%
+					p
+						font-size: 16px
+			.map
+				.wrapper
+					height: 100%
+				iframe
+					width: 100%
+					height: 100%
+
+	footer.footer-section
+		height: 60vh
+		grid-template-columns: 10% 45% 45%
+		grid-template-rows: 1fr
+		font-size: 12px
+		.text
+			padding: 0 5%
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	header
+		.title
+			font-size: 16px
+			top: 20%
+			h2
+				padding: 0 3%
+		nav
+			grid-template-columns: 10% 90%
+			.logo
+				margin-top: 7px
+			.navigation
+				display: flex
+				margin-top: 7px
+				a
+					font-size: 12px
+		.inf
+			position: relative
+			bottom: -30%	
+			.info
+				left: 20%
+				bottom: 10%
+				grid-template-columns: 1fr 1fr 1fr
+				grid-template-rows: 1fr
+				.infoBlock
+					font-size: 20px
+					margin-left: 0
+					margin-bottom: 10px
+					.num
+						padding-bottom: 14px
+
+
+	.experts-section
+		height: 70%
+		display: block
+		.experts
+			justify-content: center
+			margin: 0 1%
+			grid-gap: 10px
+			grid-template-columns: repeat(4, 240px)
+			grid-template-rows: repeat(1, 400px)
+			.item
+				.title
+					font-size: 14px
+					bottom: -40%
+					font-weight: bold
+				p
+					font-size: 12px
+					bottom: -40%
+				a.button
+					font-size: 14px
+					padding: 10px 15px
+
+	.cases-section
+		margin-top: 30px
+		h2
+			margin: 10px 0
+		.case-item
+			.content
+				grid-gap: 25px
+				margin-top: 20px
+				grid-template-columns: 100%
+				grid-template-rows: repeat(4, 1fr)
+				height: 110%
+				.video
+					iframe
+						margin: auto
+						width: 60%
+				.description
+					margin-top: 10px
+					width: 90%
+					h4
+						font-size: 18px
+						text-align: left
+					p
+						text-align: left
+						font-size: 16px
+			.images
+				grid-template-columns: repeat(3,30%)
+				grid-template-rows: 100%
+				grid-gap: 15px
+				padding-top: 0
+				justify-content: center
+				align-items: start
+				img
+					align-self: center
+					width: 100%
+			.breakdown-descr
+				padding: 2% 5%
+
+	.about-section
+		margin-top: 10px
+		height: 55%
+		h2
+			text-align: center
+			font-size: 26px
+		.info
+			grid-template-columns: 1fr 1fr
+			.information
+				text-align: center
+		.image
+			img
+				display: block
+				margin: auto
+				width: 70%
+
+
+	.works
+		height: 68%
+		padding: 10%
+		.wrapper
+			justify-content: center
+			grid-template-columns: repeat(4, 1fr)
+			grid-template-rows: repeat(2, 1fr)
+			.image
+				height: 150px
+
+	.contact-section
+		margin-top: 50px
+		height: 65vh
+		.contacts
+			margin-top: 75px
+			margin-left: 2%
+			grid-template-columns: 1fr 1fr
+			grid-template-rows: 1fr
+			.info
+				align-self: start
+				.title
+					font-size: 18px
+				.discr
+					padding-right: 3%
+					p
+						font-size: 16px
+			.map
+				.wrapper
+					height: 100%
+				iframe
+					width: 100%
+					height: 100%
+
+	footer.footer-section
+		height: 40vh
+		grid-template-columns: 10% 45% 45%
+		grid-template-rows: 1fr
+		font-size: 12px
+		.text
+			padding: 0 5%
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	header
+		.title
+			font-size: 20px
+			top: 20%
+			padding: 0 3%
+		nav
+			grid-template-columns: 10% 90%
+			.logo
+				margin-top: 20px
+			.navigation
+				display: flex
+				margin-top: 20px
+				a
+					font-size: 16px
+		.inf
+			position: relative
+			bottom: -30%	
+			.info
+				left: 20%
+				bottom: 10%
+				grid-template-columns: 1fr 1fr 1fr
+				grid-template-rows: 1fr
+				.infoBlock
+					font-size: 24px
+					margin-left: 0
+					margin-bottom: 10px
+					.num
+						padding-bottom: 14px
+
+
+	.experts-section
+		height: 70%
+		display: block
+		.experts
+			justify-content: center
+			margin: 0 1%
+			grid-gap: 10px
+			grid-template-columns: repeat(4, 240px)
+			grid-template-rows: repeat(1, 400px)
+			.item
+				.title
+					font-size: 14px
+					bottom: -40%
+					font-weight: bold
+				p
+					font-size: 12px
+					bottom: -40%
+				a.button
+					font-size: 14px
+					padding: 10px 15px
+	.cases-section
+		margin-top: 30px
+		h2
+			margin: 10px 0
+		.case-item
+			.content
+				grid-gap: 25px
+				margin-top: 20px
+				grid-template-columns: repeat(2, 1fr)
+				grid-template-rows: repeat(2, 1fr)
+				height: 110%
+				.video
+					iframe
+						margin: auto
+						width: 100%
+				.description
+					margin-top: 10px
+					width: 90%
+					h4
+						font-size: 18px
+						text-align: left
+					p
+						text-align: left
+						font-size: 16px
+			.images
+				grid-template-columns: repeat(3,30%)
+				grid-template-rows: 100%
+				grid-gap: 15px
+				padding-top: 0
+				justify-content: center
+				align-items: start
+				img
+					align-self: center
+					width: 100%
+			.breakdown-descr
+				padding: 2% 5%
+
+	.about-section
+		margin-top: 10px
+		height: 120vh
+		h2
+			text-align: center
+			font-size: 1.5rem
+		.info
+			grid-template-columns: 1fr 1fr
+			.information
+				text-align: center
+		.image
+			img
+				display: block
+				margin: auto
+				width: 70%
+
+	.works
+			height: 90vh
+			padding: 10%
+			.wrapper
+				justify-content: center
+				grid-template-columns: repeat(4, 1fr)
+				grid-template-rows: repeat(2, 1fr)
+				.image
+					height: 150px
+
+
+	.contact-section
+		margin-top: 0
+		padding-top: 50px
+		height: 100vh
+		.contacts
+			margin-top: 75px
+			margin-left: 2%
+			grid-template-columns: 1fr 1fr
+			grid-template-rows: 1fr
+			.info
+				align-self: start
+				.title
+					font-size: 20px
+				.discr
+					padding-right: 3%
+					p
+						font-size: 18px
+			.map
+				.wrapper
+					height: 100%
+				iframe
+					width: 100%
+					height: 100%
+
+	footer.footer-section
+		height: 70vh
+		grid-template-columns: 10% 45% 45%
+		grid-template-rows: 1fr
+		font-size: 20px
+		.text
+			padding: 0 5%
+
