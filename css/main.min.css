@@ -245,7 +245,7 @@ template {
 
 @font-face {
     font-family: monstseratt;
-    src: url(../fonts/montserrat-v14-latin-regular.woff) format("woff")
+    src: url(../fonts/montserrat.woff) format("woff")
 }
 
 * {
